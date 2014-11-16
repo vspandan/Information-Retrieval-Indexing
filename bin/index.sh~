@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "$1"
+javac -d "../bin" ../src/*.java
+java IndexFiles $1 $2
